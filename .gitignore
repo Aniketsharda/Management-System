@@ -1,0 +1,16 @@
+# Dependencies
+frontend/node_modules/
+backend/node_modules/
+
+# Environment
+frontend/.env
+backend/.env
+
+# Build
+frontend/dist/
+frontend/build/
+
+# Logs
+*.log
+
+.vscode/
