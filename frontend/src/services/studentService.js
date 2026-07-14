@@ -8,7 +8,7 @@ import axios from 'axios';
 
 // Create axios instance with default configuration
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: '/api',  // Use proxy instead of full URL
   headers: {
     'Content-Type': 'application/json',
   },
